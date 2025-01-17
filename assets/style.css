@@ -1,0 +1,4 @@
+public static function config(Typecho_Widget_Helper_Form $form)
+{
+    echo '<link rel="stylesheet" type="text/css" href="' . Helper::options()->pluginUrl . '/MusicPlayer/assets/style.css">';
+}
